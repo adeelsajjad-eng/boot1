@@ -1,0 +1,70 @@
+.row-header {
+    margin: 0 auto;
+    padding: 0 auto;
+}
+.row-content {
+    margin: 0 auto;
+    padding: 50px 0 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 400px;
+}
+.footer {
+    background-color: #D1C4E9;
+    margin: 50px auto 0 auto;
+    padding: 20px 0 20px 0;
+}
+.jumbotron {
+    padding: 70px 30px 70px 30px;
+    margin: 0 auto;
+    background: #9575CD;
+    color: floralwhite;
+}
+.address {
+    font-size: 80%;
+    margin: 0px;
+    color: #0f0f0f;
+}
+body{
+    padding:50px 0px 0px 0px;
+    z-index:0;
+}
+
+.navbar-dark {
+     background-color: #512DA8;
+}
+.block_button {
+    background-color: #f5d142;
+    border: none;
+    border-radius: 2px;
+    padding: 5px 15px;
+}
+.reserve_table {
+    margin-top: 30px;
+}
+.reserve_table_col {
+    border: 1px solid #AAA;
+    padding-left: 0;
+    padding-right: 0;
+}
+.heading {
+    background-color: #f5d142;
+    color: #fff;
+    padding: 10px 0 10px 35px;
+    border-bottom: 1px solid #AAA;
+}
+.body_table {
+    padding: 10px 0 20px 20px;
+}
+.row-center {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.row-center input {
+    padding-left: 10px;
+}
+.tab-content {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
