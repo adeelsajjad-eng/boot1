@@ -62,6 +62,16 @@ body{
 .reserve_header {
     border-bottom: 1px solid #fef;
 }
+.modal-header {
+    background-color: #512DA8;
+    color: #fff;
+}
+.modal-header .close {
+    color: #fff;
+}
+.modal-body {
+    background-color: #D1C4E9;
+}
 .smoking {
     padding: .2rem .75rem;
     margin-left: -4px;

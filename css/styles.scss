@@ -2,6 +2,7 @@ $lt-gray: #ddd;
 $background-dark: #512DA8;
 $background-light: #9575CD;
 $background-pale: #D1C4E9;
+$background-button: #f5d142;
 
 // Height variables
 $carousel-item-height: 300px;
@@ -45,6 +46,75 @@ body{
 
 .navbar-dark {
      background-color: $background-dark;
+}
+
+.block_button {
+    background-color: $background-button;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 40px;
+    color: #fff;
+}
+.block_button:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* .reserve_table {
+    margin-top: 30px;
+}
+.reserve_table_col {
+    border: 1px solid #AAA;
+    padding-left: 0;
+    padding-right: 0;
+} */
+
+.reserve_content {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+.reserve_header {
+    border-bottom: 1px solid #fef;
+}
+
+.modal-header {
+    background-color: $background-dark;
+    color: #fff;
+}
+.modal-header .close {
+    color: #fff;
+}
+.modal-body {
+    background-color: $background-pale;
+}
+.smoking {
+    padding: .2rem .75rem;
+    margin-left: -4px;
+    border-top-left-radius: unset;
+    border-bottom-left-radius: unset;
+}
+.non_smoking {
+    padding: .2rem .75rem;
+    border-top-right-radius: unset;
+    border-bottom-right-radius: unset;
+}
+.heading {
+    background-color: $background-button;
+    color: #fff;
+    padding: 10px 0 10px 35px;
+    border-bottom: 1px solid #AAA;
+}
+.body_table {
+    padding: 10px 0 20px 20px;
+}
+.row-center {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.row-center input {
+    padding-left: 10px;
 }
 
 .tab-content {
